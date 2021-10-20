@@ -4,6 +4,9 @@
 :root{
     --primary_color:#374C6B;
 }
+hr{
+    margin: 2rem 2rem;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     
@@ -32,4 +35,12 @@ body{
     border-radius: 0.5rem;
 }
 
+/* Lists */
 
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding:0rem 0.5rem ;
+}
