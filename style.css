@@ -44,3 +44,27 @@ body{
     display: inline;
     padding:0rem 0.5rem ;
 }
+
+/* nav */
+.navigation{
+    background-color: var(--primary_color);
+    padding: 1rem;
+    /* border-bottom-left-radius: 1rem; */
+    border-radius: 0rem 0rem 0rem 1rem;
+    border: 1px solid;
+    color: white;
+}
+.navigation .link{
+    color: white;
+    
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.nav-pills{
+    text-align: right;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
